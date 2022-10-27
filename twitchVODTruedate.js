@@ -6,9 +6,10 @@
 // @icon
 //
 //
+// @match           https://*.twitch.tv/*
 // @match           https://*.twitch.tv/*/videos/*
 //
-// @version         0.0.1
+// @version         0.0.3
 // ==/UserScript==
 
 function showTrueDate() {
@@ -27,4 +28,8 @@ function showTrueDate() {
 		/* Replace the date with the actual date */
 		date.innerText = title;
 	});
+}
+
+window.onload = function(){
+	showTrueDate()
 }
