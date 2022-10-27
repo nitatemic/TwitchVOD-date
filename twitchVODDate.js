@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name            TwitchVOD Truedate
-// @namespace       TVODTD
+// @name            TwitchVOD Date
+// @namespace       TVODD
 // @description     Replace "X days ago" with the actual date of the VOD on Twitch VOD pages
 // @copyright       Nitatemic
 // @icon
@@ -9,7 +9,7 @@
 // @match           https://*.twitch.tv/*
 // @match           https://*.twitch.tv/*/videos/*
 //
-// @version         0.0.3
+// @version         0.0.4
 // ==/UserScript==
 
 function showTrueDate() {
