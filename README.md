@@ -17,6 +17,8 @@ I missed a few streams from a channel. And when I wanted to watch them, I realiz
 It works with all modern browsers.
 Personally, I have made it work on Firefox Developer Edition, Microsoft Edge, Safari and Safari Preview Technology.
 
-I use AdGuard as my userscript manager but I also tested it with Tampermonkey
+I use AdGuard as my userscript manager but I also tested it with Tampermonkey.
+
+You can use the one you want, you can even copy and paste the code in the console.
 ## Message to the people at Twitch
 The script does not use the API, it only retrieves the title of the thumbnails to display the date. So it shouldn't be a problem for you but if it's a problem don't hesitate to contact me. And if you ever put this function directly on the site, it would be with great pleasure.
