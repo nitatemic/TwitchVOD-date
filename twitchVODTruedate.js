@@ -18,13 +18,10 @@ function showTrueDate() {
 	videos.forEach(function(video) {
 		/* Get the img child element  */
 		let img = video.getElementsByClassName('tw-image')[0];
-		console.log(img);
 		/* Get the title of the video */
 		let title = img.getAttribute('title');
-		console.log(title);
 		/* Get the actual date of the video select with class tw-media-card-stat */
 		let date = video.getElementsByClassName('tw-media-card-stat')[2];
-		console.log(date);
 		/* Replace the date with the actual date */
 		date.innerText = title;
 	});
