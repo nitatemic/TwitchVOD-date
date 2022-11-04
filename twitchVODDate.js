@@ -13,6 +13,7 @@
 // ==/UserScript==
 
 function showTrueDate() {
+	console.log("showTrueDate() called")
 	/* Select all element with data-test-selector="preview-card-image-link" */
 	let videos = document.querySelectorAll('[data-a-target="preview-card-image-link"]');
 	videos.forEach(function(video) {
@@ -30,3 +31,6 @@ function showTrueDate() {
 window.onload = function(){
 	showTrueDate()
 }
+
+/* Run the function every 10 seconds */
+setInterval(showTrueDate, 10000);
